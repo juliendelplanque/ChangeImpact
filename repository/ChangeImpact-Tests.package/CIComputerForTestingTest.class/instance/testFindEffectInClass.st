@@ -117,8 +117,8 @@ testFindEffectInClass
 			c beClean.
 			computer findEffectInClass: c ] ].
 	self
-		assert: computer changedClasses size equals: 1;
-		assert: (computer changedClasses includes: c1);
+		assert: computer affectedClassSet size equals: 1;
+		assert: (computer affectedClassSet includes: c1);
 		assert: computer changedClasses first affectedFieldSet size equals: 0;
 		assert: computer changedClasses first affectedMethodSet size equals: 1;
 		assert: (computer changedClasses first affectedMethodSet includes: m3).
