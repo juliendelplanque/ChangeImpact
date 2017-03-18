@@ -1,0 +1,16 @@
+{
+	"category" : "ChangeImpact",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 3/16/2017 16:40",
+	"instvars" : [
+		"classes",
+		"changedClasses",
+		"affectedClassSet" ],
+	"name" : "CIComputer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

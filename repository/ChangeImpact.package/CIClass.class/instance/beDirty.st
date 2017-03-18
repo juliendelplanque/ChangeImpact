@@ -1,0 +1,3 @@
+setting
+beDirty
+	isClean := false

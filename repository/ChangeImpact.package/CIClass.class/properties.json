@@ -1,0 +1,20 @@
+{
+	"category" : "ChangeImpact",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 3/18/2017 11:13",
+	"instvars" : [
+		"fields",
+		"methods",
+		"affectedMethodSet",
+		"publicAffectedMethodSet",
+		"affectedFieldSet",
+		"publicAffectedFieldSet",
+		"isClean" ],
+	"name" : "CIClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

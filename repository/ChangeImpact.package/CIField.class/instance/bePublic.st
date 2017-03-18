@@ -1,0 +1,3 @@
+setting
+bePublic
+	isPublic := true

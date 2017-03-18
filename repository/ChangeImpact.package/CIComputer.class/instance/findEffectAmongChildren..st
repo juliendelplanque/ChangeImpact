@@ -1,0 +1,2 @@
+computation
+findEffectAmongChildren: aClass

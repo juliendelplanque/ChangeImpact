@@ -1,0 +1,3 @@
+setting
+bePrivate
+	isPublic := false
