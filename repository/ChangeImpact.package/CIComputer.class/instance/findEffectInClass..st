@@ -9,10 +9,7 @@ findEffectInClass: aCIClass
 			((self methodReferenceSetOf: method) intersection: aCIClass affectedMethodSet) isNotEmpty
 				or: [ ((self fieldReferenceSetOf: method) intersection: aCIClass affectedFieldSet) isNotEmpty ] ]
 		)
-			ifTrue: [ 
-				aCIClass affectedMethodSet add: method.
-				method isPublic
-					ifTrue: [ aCIClass publicAffectedMethodSet add: method ] ]
+			ifTrue: [ aCIClass addAffectedMethodSet: method ]
 			ifFalse: [ cleanMethods add: method ] ].
 	"Loop on fields of the class"
 	aCIClass fields do: [ :field |
@@ -20,28 +17,17 @@ findEffectInClass: aCIClass
 			((self fieldReferenceSetOf: field) intersection: aCIClass affectedFieldSet) isNotEmpty
 				or: [ ((self methodReferenceSetOf: field) intersection: aCIClass affectedMethodSet) isNotEmpty ] ]
 		)
-			ifTrue: [ 
-				aCIClass affectedFieldSet add: field.
-				field isPublic
-					ifTrue: [ aCIClass publicAffectedFieldSet add: field ] ]
+			ifTrue: [ aCIClass addAffectedFieldSet: field ]
 			ifFalse: [ cleanFields add: field ] ].
 	"Loop on clean methods"
 	cleanMethods do: [ :method |
 		(((self methodReferenceSetOf: method) intersection: aCIClass affectedMethodSet) isNotEmpty
 				or: [ ((self fieldReferenceSetOf: method) intersection: aCIClass affectedFieldSet) isNotEmpty ]
 		)
-			ifTrue: [ 
-				aCIClass affectedMethodSet add: method.
-				method isPublic
-					ifTrue: [ 
-						aCIClass publicAffectedMethodSet add: method ] ] ].
+			ifTrue: [ aCIClass addAffectedMethodSet: method ] ].
 	"Loop on clean fields"
 	cleanFields do: [ :field |
 		(((self fieldReferenceSetOf: field) intersection: aCIClass affectedFieldSet) isNotEmpty
 				or: [ ((self methodReferenceSetOf: field) intersection: aCIClass affectedMethodSet) isNotEmpty ]
 		)
-			ifTrue: [ 
-				aCIClass affectedFieldSet add: field.
-				field isPublic
-					ifTrue: [ 
-						aCIClass publicAffectedFieldSet add: field ] ] ]
+			ifTrue: [ aCIClass addAffectedFieldSet: field ] ]
