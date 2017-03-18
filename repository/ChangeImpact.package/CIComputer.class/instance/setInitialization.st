@@ -2,7 +2,7 @@ computation
 setInitialization
 	"Initialize ACS"
 	self
-		affectedClassSet: self changedClasses.
+		affectedClassSet: self changedClasses asSet.
 	"Mark each class in the system dirty"
 	self classes do: #beDirty.
 	"Initialize AMS and AFS for each class of the ACS."
