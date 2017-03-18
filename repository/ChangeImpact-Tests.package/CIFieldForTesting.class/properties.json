@@ -1,0 +1,16 @@
+{
+	"category" : "ChangeImpact-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 3/18/2017 12:45",
+	"instvars" : [
+		"fieldReferences",
+		"methodReferences",
+		"name" ],
+	"name" : "CIFieldForTesting",
+	"pools" : [
+		 ],
+	"super" : "CIField",
+	"type" : "normal" }
