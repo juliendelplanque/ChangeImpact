@@ -1,3 +1,0 @@
-setting
-bePrivate
-	isPublic := false

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "JulienDelplanque 3/18/2017 11:13",
 	"instvars" : [
-		"isPublic" ],
+		 ],
 	"name" : "CIMethod",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CIEntityWithAccessModifier",
 	"type" : "normal" }
