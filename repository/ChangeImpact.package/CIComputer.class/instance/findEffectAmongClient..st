@@ -9,13 +9,13 @@ findEffectAmongClient: aClass
 			(((self methodReferenceSetOf: method) intersection: aClass publicAffectedMethodSet) isNotEmpty
 				or: [ ((self fieldReferenceSetOf: method) intersection: aClass publicAffectedFieldSet) isNotEmpty ]
 			)
-				ifTrue: [ classUsingAClass addAffectedMethodSet: method ] ].
+				ifTrue: [ classUsingAClass addAffectedMethod: method ] ].
 		"Fields loop"
 		classUsingAClass fields do: [ :field |
 			(((self fieldReferenceSetOf: field) intersection: classUsingAClass publicAffectedFieldSet) isNotEmpty
 				or: [ ((self methodReferenceSetOf: field) intersection: classUsingAClass publicAffectedMethodSet) isNotEmpty ]
 			)
-				ifTrue: [ classUsingAClass addAffectedFieldSet: field ] ].
+				ifTrue: [ classUsingAClass addAffectedField: field ] ].
 		"Find effect in the class using aClass"
 		self findEffectInClass: classUsingAClass.
 		"Compare AMS and AFS changes"
