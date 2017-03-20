@@ -16,5 +16,5 @@
 	"name" : "CIClass",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CINamedEntity",
 	"type" : "normal" }

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 3/20/2017 14:52",
+	"commentStamp" : "JulienDelplanque 3/20/2017 14:55",
 	"instvars" : [
-		"isPublic" ],
-	"name" : "CIEntityWithAccessModifier",
+		 ],
+	"name" : "CINamedEntity",
 	"pools" : [
 		 ],
-	"super" : "CINamedEntity",
+	"super" : "Object",
 	"type" : "normal" }

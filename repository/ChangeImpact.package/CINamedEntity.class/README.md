@@ -1,0 +1,1 @@
+I am an entity that defines a method #name that must be overrided by subclasses to return a String representing the name of the entity.
