@@ -5,7 +5,7 @@ findEffectInClass: aCIClass
 	cleanFields := OrderedCollection new.
 	"Loop on methods of the class"
 	aCIClass methods do: [ :method |
-		((aCIClass affectedMethodSet includes: method) and: [ 
+		((aCIClass affectedMethodSet includes: method) not and: [ 
 			((self methodReferenceSetOf: method) intersection: aCIClass affectedMethodSet) isNotEmpty
 				or: [ ((self fieldReferenceSetOf: method) intersection: aCIClass affectedFieldSet) isNotEmpty ] ]
 		)
@@ -13,7 +13,7 @@ findEffectInClass: aCIClass
 			ifFalse: [ cleanMethods add: method ] ].
 	"Loop on fields of the class"
 	aCIClass fields do: [ :field |
-		((aCIClass affectedFieldSet includes: field) and: [ 
+		((aCIClass affectedFieldSet includes: field) not and: [ 
 			((self fieldReferenceSetOf: field) intersection: aCIClass affectedFieldSet) isNotEmpty
 				or: [ ((self methodReferenceSetOf: field) intersection: aCIClass affectedMethodSet) isNotEmpty ] ]
 		)
