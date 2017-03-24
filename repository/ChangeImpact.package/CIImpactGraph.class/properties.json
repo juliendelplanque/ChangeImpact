@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ChangeImpact",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"change",
+		"changedNode",
+		"impactedNodes"
+	],
+	"name" : "CIImpactGraph",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 3/24/2017 13:58",
+	"super" : "Object",
+	"category" : "ChangeImpact",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIChange",
+	"type" : "normal"
+}

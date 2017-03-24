@@ -1,0 +1,1 @@
+I am an edge in a CIImpactGraph.

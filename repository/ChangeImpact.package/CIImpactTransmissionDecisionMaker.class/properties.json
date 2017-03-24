@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 3/24/2017 11:48",
+	"super" : "Object",
+	"category" : "ChangeImpact",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decisionBlock"
+	],
+	"name" : "CIImpactTransmissionDecisionMaker",
+	"type" : "normal"
+}

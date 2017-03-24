@@ -1,0 +1,1 @@
+I am the object which is responsible to take the decision of transmitting the impact of a change along a CIEdge or not.

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulienDelplanque 3/24/2017 11:36",
+	"super" : "Object",
+	"category" : "ChangeImpact",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"incomingEdges",
+		"isImpacted"
+	],
+	"name" : "CINode",
+	"type" : "normal"
+}
