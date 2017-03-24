@@ -1,3 +1,0 @@
-sets computing
-fieldReferenceSetOf: aDatafieldOrMethod
-	^ aDatafieldOrMethod fieldReferences

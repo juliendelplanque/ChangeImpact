@@ -1,1 +1,0 @@
-I am a method for testing purpose.

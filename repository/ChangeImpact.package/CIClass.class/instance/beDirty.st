@@ -1,3 +1,0 @@
-setting
-beDirty
-	isClean := false

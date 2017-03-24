@@ -1,3 +1,0 @@
-setting
-bePublic
-	isPublic := true
