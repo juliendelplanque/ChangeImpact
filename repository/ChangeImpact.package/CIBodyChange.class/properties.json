@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 3/25/2017 14:28",
+	"super" : "CIPairwiseChange",
+	"category" : "ChangeImpact-Changes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIBodyChange",
+	"type" : "normal"
+}
