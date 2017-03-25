@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JulienDelplanque 3/25/2017 14:28",
-	"super" : "CIPairwiseChange",
+	"super" : "CIChange",
 	"category" : "ChangeImpact-Changes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
