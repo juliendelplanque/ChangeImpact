@@ -1,0 +1,1 @@
+I am a change representing a generic modification of an entity exisiting both in the initial and modified version of a software.
