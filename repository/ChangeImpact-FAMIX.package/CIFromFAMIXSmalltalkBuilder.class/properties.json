@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CIFromFAMIXBuilder",
+	"category" : "ChangeImpact-FAMIX",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIFromFAMIXSmalltalkBuilder",
+	"type" : "normal"
+}

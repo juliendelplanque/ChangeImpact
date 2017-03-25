@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CIImpactGraphBuilder",
+	"category" : "ChangeImpact-FAMIX",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"famixModel",
+		"associationTypeToTransmissionDecisionMaker"
+	],
+	"name" : "CIFromFAMIXBuilder",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 3/25/2017 12:04",
+	"super" : "CINode",
+	"category" : "ChangeImpact-FAMIX",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entity"
+	],
+	"name" : "CIFAMIXNode",
+	"type" : "normal"
+}

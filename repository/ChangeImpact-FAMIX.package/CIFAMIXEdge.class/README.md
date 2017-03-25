@@ -1,0 +1,1 @@
+I am an edge of the change impact graph specialised for impact analysis of FAMIX models.

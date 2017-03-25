@@ -1,0 +1,3 @@
+accessing
+associationTypes
+	^ self associationTypeToTransmissionDecisionMaker keys
