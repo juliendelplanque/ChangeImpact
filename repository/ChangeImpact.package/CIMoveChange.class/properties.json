@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CIPairwiseChange",
+	"category" : "ChangeImpact-Changes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIMoveChange",
+	"type" : "normal"
+}

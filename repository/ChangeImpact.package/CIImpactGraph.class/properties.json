@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "JulienDelplanque 3/25/2017 13:57",
 	"super" : "Object",
-	"category" : "ChangeImpact",
+	"category" : "ChangeImpact-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

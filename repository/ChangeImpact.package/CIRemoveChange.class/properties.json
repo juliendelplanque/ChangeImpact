@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CIChange",
+	"category" : "ChangeImpact-Changes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIRemoveChange",
+	"type" : "normal"
+}
