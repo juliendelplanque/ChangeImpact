@@ -1,3 +1,3 @@
 deciding
 makeDecisionForAccessWithEdge: edge change: change
-	^ true
+	^ self shouldSmalltalkFAMIXAccessTransmitImpact: edge

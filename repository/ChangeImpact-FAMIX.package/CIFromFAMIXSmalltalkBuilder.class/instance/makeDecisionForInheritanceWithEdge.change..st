@@ -1,3 +1,3 @@
 deciding
 makeDecisionForInheritanceWithEdge: edge change: change
-	^ true
+	^ self shouldSmalltalkFAMIXInheritanceTransmitImpact: edge

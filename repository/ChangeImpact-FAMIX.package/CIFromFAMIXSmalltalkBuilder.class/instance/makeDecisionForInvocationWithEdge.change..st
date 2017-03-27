@@ -1,3 +1,3 @@
 deciding
 makeDecisionForInvocationWithEdge: edge change: change
-	^ true
+	^ change shouldSmalltalkFAMIXInvocationTransmitImpact: edge
