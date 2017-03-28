@@ -1,6 +1,7 @@
 computing
 computeImpact
 	| nextNodesToProcess |
+	self nodes do: [ :n | n isImpacted: false ].
 	self impactedNodes: OrderedCollection new.
 	nextNodesToProcess := OrderedCollection new.
 	nextNodesToProcess add: self changedNode.
