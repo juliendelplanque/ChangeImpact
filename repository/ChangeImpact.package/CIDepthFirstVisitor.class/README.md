@@ -1,0 +1,1 @@
+I am an abstract impact graph visitor using depth first method.

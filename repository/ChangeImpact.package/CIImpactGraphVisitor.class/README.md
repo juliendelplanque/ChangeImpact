@@ -1,0 +1,1 @@
+I am an abstract impact graph visitor. I define the common interface to all graph visitors.
