@@ -1,6 +1,7 @@
 building
 build
 	| initialNode nodeToAssocs |
+	self famixModel entities do: [ :e | e privateState propertyAt: #ciShouldBeVisited put: true ].
 	initialNode := CIFAMIXNode new
 							entity: self changedEntity;
 							yourself.
