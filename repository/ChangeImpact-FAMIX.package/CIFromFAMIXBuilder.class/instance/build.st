@@ -16,6 +16,7 @@ build
 												from: (CIFAMIXNode new entity: assoc from; yourself);
 												to: node;
 												relation: assoc;
+												impactTransmissionDecisionMaker: (self associationTypeToTransmissionDecisionMaker at: assoc class);
 												yourself ]).
 				node incomingEdges do: [ :edge |
 					nodeToAssocs

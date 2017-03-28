@@ -1,3 +1,3 @@
 *ChangeImpact-FAMIX
 shouldSmalltalkFAMIXInvocationTransmitImpact: edge
-	^ edge to = self entity
+	^ edge to entity = self entity
