@@ -10,7 +10,9 @@
 		"addChangeButton",
 		"removeChangeButton",
 		"clearChangeListButton",
-		"acceptChangeListButton"
+		"acceptChangeListButton",
+		"changeBuilderClass",
+		"model"
 	],
 	"name" : "CIBChangesSelector",
 	"type" : "normal"

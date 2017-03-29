@@ -1,0 +1,3 @@
+initialization
+initializeModelBrowserPresenter
+	self subclassResponsibility

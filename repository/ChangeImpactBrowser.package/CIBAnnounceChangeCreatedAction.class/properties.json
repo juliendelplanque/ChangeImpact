@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "JulienDelplanque 3/29/2017 10:33",
-	"super" : "CIBCancellableAction",
+	"commentStamp" : "",
+	"super" : "CIBAction",
 	"category" : "ChangeImpactBrowser-Actions",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"change"
 	],
-	"name" : "CIBAddChangeAction",
+	"name" : "CIBAnnounceChangeCreatedAction",
 	"type" : "normal"
 }

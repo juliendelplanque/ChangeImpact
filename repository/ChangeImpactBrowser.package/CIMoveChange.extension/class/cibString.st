@@ -1,0 +1,3 @@
+*ChangeImpactBrowser
+cibString
+	^ 'Move'

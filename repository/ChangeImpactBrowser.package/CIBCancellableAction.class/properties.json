@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CIBCancelableAction",
+	"name" : "CIBCancellableAction",
 	"type" : "normal"
 }

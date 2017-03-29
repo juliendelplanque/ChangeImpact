@@ -1,0 +1,3 @@
+accessing
+changeBuilderClass
+	^ changeBuilderClass

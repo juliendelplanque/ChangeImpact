@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "JulienDelplanque 3/29/2017 17:25",
+	"super" : "CIBComposableModel",
+	"category" : "ChangeImpactBrowser-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dropListLabel",
+		"changeDropList",
+		"okButton",
+		"cancelButton",
+		"modelBrowserLabel",
+		"modelBrowser"
+	],
+	"name" : "CIBChangeBuilder",
+	"type" : "normal"
+}
