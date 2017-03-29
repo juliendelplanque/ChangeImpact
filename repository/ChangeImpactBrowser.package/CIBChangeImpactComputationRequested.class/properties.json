@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 3/27/2017 16:14",
+	"super" : "CIBAnnouncement",
+	"category" : "ChangeImpactBrowser-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"changesSelected"
+	],
+	"name" : "CIBChangeImpactComputationRequested",
+	"type" : "normal"
+}

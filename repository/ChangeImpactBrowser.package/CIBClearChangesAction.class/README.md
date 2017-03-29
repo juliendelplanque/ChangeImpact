@@ -1,0 +1,1 @@
+I am the action performed when the user clear the list of changes of a CIBChangesSelector.

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 3/29/2017 10:32",
+	"super" : "CIBAction",
+	"category" : "ChangeImpactBrowser-Actions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIBCancelableAction",
+	"type" : "normal"
+}

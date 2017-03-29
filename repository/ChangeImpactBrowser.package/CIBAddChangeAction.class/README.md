@@ -1,0 +1,1 @@
+I am the action performed when the user add a change to the change list of CIBChangesSelector.
