@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 3/29/2017 18:54",
+	"super" : "CIBImpactGraphModel",
+	"category" : "ChangeImpactBrowser-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"roassal"
+	],
+	"name" : "CIBImpactGraphRoassal",
+	"type" : "normal"
+}
