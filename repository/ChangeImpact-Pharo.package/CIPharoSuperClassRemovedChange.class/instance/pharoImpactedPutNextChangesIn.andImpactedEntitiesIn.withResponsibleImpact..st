@@ -1,0 +1,3 @@
+change impact
+pharoImpactedPutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
+	self entity pharoImpactedSuperClassRemovedChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact

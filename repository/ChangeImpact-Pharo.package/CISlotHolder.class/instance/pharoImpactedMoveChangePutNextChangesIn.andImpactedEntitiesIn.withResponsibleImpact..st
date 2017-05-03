@@ -1,0 +1,3 @@
+change impact
+pharoImpactedMoveChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
+	CIChangeNotApplicable signal

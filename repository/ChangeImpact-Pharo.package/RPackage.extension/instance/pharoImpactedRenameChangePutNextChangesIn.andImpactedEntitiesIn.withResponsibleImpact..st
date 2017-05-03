@@ -1,0 +1,3 @@
+*ChangeImpact-Pharo
+pharoImpactedRenameChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
+	"Do nothing."

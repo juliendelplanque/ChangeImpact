@@ -1,3 +1,0 @@
-as yet unclassified
-pharoImpactedPutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
-	self entity pharoImpactedSuperClassRemovedChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities

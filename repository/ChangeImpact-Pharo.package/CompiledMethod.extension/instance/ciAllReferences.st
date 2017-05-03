@@ -1,3 +1,3 @@
 *ChangeImpact-Pharo
 ciAllReferences
-	^ SystemNavigation default allReferencesTo: self selector
+	^ (SystemNavigation default allCallsOn: self selector) asSet

@@ -1,3 +1,0 @@
-change impact
-pharoImpactedSuperClassRemovedChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
-	CIChangeNotApplicable signal

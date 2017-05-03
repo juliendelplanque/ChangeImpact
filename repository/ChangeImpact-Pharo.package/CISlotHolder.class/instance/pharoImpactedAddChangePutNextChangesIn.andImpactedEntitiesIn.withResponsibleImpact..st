@@ -1,0 +1,3 @@
+change impact
+pharoImpactedAddChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
+	"Do nothing."

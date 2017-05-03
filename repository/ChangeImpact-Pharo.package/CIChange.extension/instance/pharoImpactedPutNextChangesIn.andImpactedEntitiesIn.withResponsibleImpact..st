@@ -1,0 +1,3 @@
+*ChangeImpact-Pharo
+pharoImpactedPutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
+	self subclassResponsibility

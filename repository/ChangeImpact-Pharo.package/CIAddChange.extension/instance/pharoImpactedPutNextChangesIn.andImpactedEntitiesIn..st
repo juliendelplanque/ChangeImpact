@@ -1,3 +1,0 @@
-*ChangeImpact-Pharo
-pharoImpactedPutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
-	self entity pharoImpactedAddChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
