@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CIPharoStrategy",
+	"category" : "ChangeImpact-Pharo-Strategy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIPharoTestCasesToReRunStrategy",
+	"type" : "normal"
+}

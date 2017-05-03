@@ -1,0 +1,3 @@
+*ChangeImpact-Pharo
+pharoImpactedPutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
+	self entity pharoImpactedRenameChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
