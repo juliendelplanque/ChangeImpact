@@ -1,0 +1,1 @@
+I represent the fact that the entity I hold has been directly impacted (i.e. the user did a modification on it).

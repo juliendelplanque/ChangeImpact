@@ -1,0 +1,1 @@
+I am an object that encapsulate an entity that has been impacted.
