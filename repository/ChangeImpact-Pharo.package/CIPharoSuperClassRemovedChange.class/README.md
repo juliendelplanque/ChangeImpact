@@ -1,0 +1,1 @@
+I am the change representing the fact that the superclass of a class has been removed.

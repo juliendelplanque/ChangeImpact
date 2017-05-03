@@ -1,3 +1,3 @@
-*ChangeImpact-Pharo
+change impact
 pharoImpactedAddChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
 	"Do nothing."

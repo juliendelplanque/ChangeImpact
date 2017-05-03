@@ -1,3 +1,3 @@
-*ChangeImpact-Pharo
+change impact
 pharoImpactedBodyChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
 	CIChangeNotApplicable signal

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 5/3/2017 11:44",
+	"super" : "CIChange",
+	"category" : "ChangeImpact-Pharo-Changes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIPharoSuperClassRemovedChange",
+	"type" : "normal"
+}
