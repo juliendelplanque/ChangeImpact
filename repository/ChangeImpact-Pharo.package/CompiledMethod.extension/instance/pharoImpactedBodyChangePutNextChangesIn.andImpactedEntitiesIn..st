@@ -1,3 +1,5 @@
 *ChangeImpact-Pharo
 pharoImpactedBodyChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities
-	self halt. "TODO"
+	"When modifying my body, it impacts the methods referencing me."
+	self ciAllReferences do: [ :method |
+		impactedEntities add: (CIIndirectImpact impactedEntity: method) ]
