@@ -1,8 +1,8 @@
 accessing
 buildMethodMenu: aBuilder
 	<nautilusGlobalMethodMenu>
-	| method |
-	method := aBuilder model selectedMethod.
+	| selectedMethod |
+	selectedMethod := aBuilder model selectedMethod.
 	(aBuilder item: #'WhatIf')
 		label: 'What if...';
 		with: [ 
@@ -13,7 +13,9 @@ buildMethodMenu: aBuilder
 			(aBuilder item: #'Move')
 				label: 'Method selected is moved?'.
 			(aBuilder item: #'Remove')
-				label: 'Method selected is removed?'.
+				label: 'Method selected is removed?';
+				action: [ (CIPharoImpactedEntitiesStrategy new impactOfChange: (CIRemoveChange entity: selectedMethod)) inspect ].
 			(aBuilder item: #'Rename')
-				label: 'Method selected is renamed?' ];
+				label: 'Method selected is renamed?';
+				action: [ (CIPharoImpactedEntitiesStrategy new impactOfChange: (CIRenameChange entity: selectedMethod)) inspect ] ];
 		withSeparatorAfter
