@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 5/3/2017 14:19",
+	"super" : "Object",
+	"category" : "ChangeImpact-Nautilus",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CINautilusMenu",
+	"type" : "normal"
+}

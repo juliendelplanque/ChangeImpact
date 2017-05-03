@@ -1,0 +1,1 @@
+I am the class that defines the entry in nautilus menu.
