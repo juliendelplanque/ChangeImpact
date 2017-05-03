@@ -1,0 +1,1 @@
+I am the strategy used to select the entities that are impacted by a change from the model.
