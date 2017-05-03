@@ -1,3 +1,0 @@
-accessing
-decisionBlock
-	^ decisionBlock

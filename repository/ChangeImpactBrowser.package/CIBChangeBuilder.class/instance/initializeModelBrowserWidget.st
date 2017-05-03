@@ -1,3 +1,0 @@
-initialization
-initializeModelBrowserWidget
-	self subclassResponsibility

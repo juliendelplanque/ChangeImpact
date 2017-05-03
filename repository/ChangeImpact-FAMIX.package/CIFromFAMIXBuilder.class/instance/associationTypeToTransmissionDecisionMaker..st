@@ -1,3 +1,0 @@
-accessing
-associationTypeToTransmissionDecisionMaker: anObject
-	associationTypeToTransmissionDecisionMaker := anObject

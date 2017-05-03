@@ -1,3 +1,0 @@
-*ChangeImpactBrowser
-cibString
-	^ 'Move'

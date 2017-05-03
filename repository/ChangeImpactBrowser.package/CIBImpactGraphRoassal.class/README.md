@@ -1,1 +1,0 @@
-I use Roassal to build a graphical representation of the imapct graph.

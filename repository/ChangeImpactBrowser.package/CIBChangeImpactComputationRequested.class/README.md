@@ -1,1 +1,0 @@
-I am announced when the user request to compute the impact of the changes he selected.

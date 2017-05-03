@@ -1,3 +1,0 @@
-accessing
-modelBrowserLabel
-	^ modelBrowserLabel

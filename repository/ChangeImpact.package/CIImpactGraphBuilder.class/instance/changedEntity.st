@@ -1,3 +1,0 @@
-accessing
-changedEntity
-	^ changedEntity

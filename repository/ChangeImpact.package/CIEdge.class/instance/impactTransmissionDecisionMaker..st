@@ -1,3 +1,0 @@
-accessing
-impactTransmissionDecisionMaker: anObject
-	impactTransmissionDecisionMaker := anObject

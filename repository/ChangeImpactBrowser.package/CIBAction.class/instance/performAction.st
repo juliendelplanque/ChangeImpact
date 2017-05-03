@@ -1,3 +1,0 @@
-action
-performAction
-	self subclassResponsibility

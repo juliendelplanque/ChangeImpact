@@ -1,1 +1,0 @@
-I am the abstract class responsible of the graphical representation of the imapct graph.

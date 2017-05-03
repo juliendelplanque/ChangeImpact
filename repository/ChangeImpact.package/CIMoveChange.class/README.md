@@ -1,1 +1,0 @@
-I am a change representing the move of an entity in a software.

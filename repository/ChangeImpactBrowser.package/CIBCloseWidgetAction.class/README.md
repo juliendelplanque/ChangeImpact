@@ -1,1 +1,0 @@
-I am the action that closes the Spec widget corresponding to the #specModel.

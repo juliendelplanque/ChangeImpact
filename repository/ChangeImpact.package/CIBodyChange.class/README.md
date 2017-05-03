@@ -1,1 +1,0 @@
-I am a change representing the modification of the body of an entity in a software.

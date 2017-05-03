@@ -1,1 +1,0 @@
-I am a node of the change impact graph specialised for impact analysis of FAMIX models.
