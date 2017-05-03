@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JulienDelplanque 3/29/2017 18:54",
+	"super" : "CIBImpactTreeVisualisation",
+	"category" : "ChangeImpactBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"roassal",
+		"lastView",
+		"lastCanva"
+	],
+	"name" : "CIBImpactTreeRoassal",
+	"type" : "normal"
+}

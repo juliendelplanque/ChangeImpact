@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 5/3/2017 16:25",
+	"super" : "ComposableModel",
+	"category" : "ChangeImpactBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textModel"
+	],
+	"name" : "CIBSourceCode",
+	"type" : "normal"
+}

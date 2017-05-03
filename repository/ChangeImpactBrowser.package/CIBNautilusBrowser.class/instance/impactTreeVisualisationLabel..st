@@ -1,0 +1,3 @@
+accessing
+impactTreeVisualisationLabel: anObject
+	impactTreeVisualisationLabel := anObject

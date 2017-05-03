@@ -1,0 +1,8 @@
+specs
+defaultSpec
+	<spec: #default>
+	^ SpecLayout composed
+		newColumn: [ :column |
+			column
+				add: #treeModel ];
+		yourself

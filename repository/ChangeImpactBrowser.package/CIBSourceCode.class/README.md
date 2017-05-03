@@ -1,0 +1,1 @@
+I am the widget responsible of displaying the source code of entities impacted.

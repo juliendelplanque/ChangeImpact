@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulienDelplanque 5/3/2017 16:04",
+	"super" : "ComposableModel",
+	"category" : "ChangeImpactBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"treeModel",
+		"impactSet"
+	],
+	"name" : "CIBImpactTree",
+	"type" : "normal"
+}
