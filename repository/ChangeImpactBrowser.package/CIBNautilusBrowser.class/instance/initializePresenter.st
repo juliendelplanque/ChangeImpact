@@ -13,4 +13,7 @@ initializePresenter
 		whenSelectedItemChanged: [ :impact |
 			impact ifNotNil: [ 
 				self sourceCodeModel displaySourceCodeOf: impact impactedEntity.
-				self impactTreeVisualisation focusOn: impact ] ]
+				self impactTreeVisualisation focusOn: impact ] ].
+		
+	self impactTreeVisualisation
+		whenSelectedItemChanged: [ :impact | impact inspect ]

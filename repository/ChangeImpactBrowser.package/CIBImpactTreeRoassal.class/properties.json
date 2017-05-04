@@ -8,7 +8,9 @@
 	"instvars" : [
 		"roassal",
 		"lastView",
-		"lastCanva"
+		"lastCanva",
+		"lastFocusedNode",
+		"whenSelectedItemChanged"
 	],
 	"name" : "CIBImpactTreeRoassal",
 	"type" : "normal"
