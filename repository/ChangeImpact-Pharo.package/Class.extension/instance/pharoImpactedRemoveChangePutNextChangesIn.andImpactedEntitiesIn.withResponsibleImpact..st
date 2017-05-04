@@ -21,9 +21,8 @@ pharoImpactedRemoveChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: im
 		impactedEntities add: impact ].
 	
 	"My attributes will be deleted."
-	(self slots collect: [ :slot | CISlotHolder slot: slot origin: self ])
-		do: [ :slotHolder | |impact|
-			impact := CIIndirectImpact impactedEntity: slotHolder.
-			impact responsibleImpact: responsibleImpact.
-			nextChanges addFirst: (CIRemoveChange entity: slotHolder).
-			impactedEntities add: impact ]
+	self slots do: [ :slot | |impact|
+		impact := CIIndirectImpact impactedEntity: slot.
+		impact responsibleImpact: responsibleImpact.
+		nextChanges addFirst: (CIRemoveChange entity: slot).
+		impactedEntities add: impact ]

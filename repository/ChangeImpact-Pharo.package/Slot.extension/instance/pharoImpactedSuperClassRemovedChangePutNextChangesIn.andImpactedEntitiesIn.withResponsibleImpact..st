@@ -1,3 +1,3 @@
-change impact
+*ChangeImpact-Pharo
 pharoImpactedSuperClassRemovedChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
 	CIChangeNotApplicable signal

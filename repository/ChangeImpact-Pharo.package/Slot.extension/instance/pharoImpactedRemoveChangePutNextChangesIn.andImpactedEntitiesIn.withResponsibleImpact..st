@@ -1,4 +1,4 @@
-change impact
+*ChangeImpact-Pharo
 pharoImpactedRemoveChangePutNextChangesIn: nextChanges andImpactedEntitiesIn: impactedEntities withResponsibleImpact: responsibleImpact
 	self ciAllReferences do: [ :method | |impact|
 		impact := CIIndirectImpact impactedEntity: method.
