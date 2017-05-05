@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	whenSelectedItemChanged := [ :impact | ]
+	whenSelectedItemChanged := [ :impact | ].

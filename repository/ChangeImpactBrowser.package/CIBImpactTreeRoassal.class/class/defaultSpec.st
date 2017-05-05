@@ -4,5 +4,9 @@ defaultSpec
 	^ SpecLayout composed
 		newColumn: [ :column |
 			column
-				add: #roassal ];
+				add: #roassal;
+				newRow: [ :row | 
+					row
+						add: #layoutDropList;
+						add: #circleSizeInput ] height: self buttonHeight ];
 		yourself

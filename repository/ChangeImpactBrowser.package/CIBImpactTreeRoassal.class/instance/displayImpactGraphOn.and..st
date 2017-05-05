@@ -9,7 +9,7 @@ displayImpactGraphOn: view and: canva
 					view: view;
 					yourself.
 	builder shape circle
-		size: 10;
+		size: self circleSize;
 		color: (Color veryLightGray alpha: 0.4);
 		if: [ :node | node isDirectImpact ] fillColor: Color red.
 	builder nodes: self impactSet.
@@ -17,7 +17,7 @@ displayImpactGraphOn: view and: canva
 	builder edges
 		connectToAll: [ :n | 
 			self impactSet select: [ :impact | impact isIndirectImpact and: [ impact responsibleImpact = n ] ] ].
-	builder layout radialTree."forceWithCharge: -500."
+	self layout value: builder layout.
 	builder interaction
 		when: TRMouseLeftClick do: [ :event |
 			whenSelectedItemChanged value: event element model ].

@@ -1,0 +1,2 @@
+*ChangeImpactBrowser
+cibDisplayInCIBSourceCode: aCIBSourceCode

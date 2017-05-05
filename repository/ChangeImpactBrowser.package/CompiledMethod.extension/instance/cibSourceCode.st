@@ -1,3 +1,0 @@
-*ChangeImpactBrowser
-cibSourceCode
-	^ self sourceCode

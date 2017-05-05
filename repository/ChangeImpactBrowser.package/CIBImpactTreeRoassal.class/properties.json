@@ -10,7 +10,11 @@
 		"lastView",
 		"lastCanva",
 		"lastFocusedNode",
-		"whenSelectedItemChanged"
+		"whenSelectedItemChanged",
+		"layout",
+		"layoutDropList",
+		"circleSizeInput",
+		"circleSize"
 	],
 	"name" : "CIBImpactTreeRoassal",
 	"type" : "normal"
