@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 5/5/2017 14:05",
+	"super" : "Object",
+	"category" : "ChangeImpact-Filters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CIFilter",
+	"type" : "normal"
+}

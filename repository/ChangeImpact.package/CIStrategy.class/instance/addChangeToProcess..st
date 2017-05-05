@@ -1,5 +1,5 @@
 adding
 addChangeToProcess: aCIChange
-	(self isEntityVisited: aCIChange)
+	((self filter shouldChangeBeFiltered: aCIChange) or: [ self isEntityVisited: aCIChange ])
 		ifTrue: [ ^ self ].
 	self nextChangesToProcess addFirst: aCIChange

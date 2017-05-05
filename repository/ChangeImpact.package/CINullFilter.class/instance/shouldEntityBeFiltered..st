@@ -1,0 +1,3 @@
+testing
+shouldEntityBeFiltered: anEntity
+	^ false

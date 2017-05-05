@@ -9,7 +9,8 @@
 		"impactedEntities",
 		"nextChangesToProcess",
 		"visitedEntities",
-		"currentResponsibleImpact"
+		"currentResponsibleImpact",
+		"filter"
 	],
 	"name" : "CIStrategy",
 	"type" : "normal"
