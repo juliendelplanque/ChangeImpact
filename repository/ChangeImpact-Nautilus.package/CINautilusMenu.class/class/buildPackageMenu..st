@@ -2,7 +2,7 @@ accessing
 buildPackageMenu: aBuilder
 	<nautilusGlobalPackageMenu>
 	| package |
-	package := aBuilder model selectedPackage.
+	package := aBuilder model selectedPackage package.
 	(aBuilder item: #'WhatIf')
 		label: 'What if...';
 		order: self orderNumber;
