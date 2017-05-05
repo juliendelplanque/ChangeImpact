@@ -15,8 +15,8 @@ displayImpactGraphOn: view and: canva
 	builder nodes: self impactSet.
 	builder shape arrowedLine withShorterDistanceAttachPoint.
 	builder edges
-		connectToAll: [ :n | 
-			self impactSet select: [ :impact | impact isIndirectImpact and: [ impact responsibleImpact = n ] ] ].
+		connectToAll: [ :n | n inducedImpacts
+			"self impactSet select: [ :impact | impact isIndirectImpact and: [ impact responsibleImpact = n ] ]" ].
 	self layout value: builder layout.
 	builder interaction
 		when: TRMouseLeftClick do: [ :event |
