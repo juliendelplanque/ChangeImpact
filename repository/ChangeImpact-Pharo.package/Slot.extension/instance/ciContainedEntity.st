@@ -1,0 +1,3 @@
+*ChangeImpact-Pharo
+ciContainedEntity
+	^ #()

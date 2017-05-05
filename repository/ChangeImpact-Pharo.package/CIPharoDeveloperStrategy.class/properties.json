@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "JulienDelplanque 5/2/2017 18:18",
-	"super" : "CIStrategy",
+	"commentStamp" : "",
+	"super" : "CIDeveloperStrategy",
 	"category" : "ChangeImpact-Pharo-Strategy",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CIPharoStrategy",
+	"name" : "CIPharoDeveloperStrategy",
 	"type" : "normal"
 }
