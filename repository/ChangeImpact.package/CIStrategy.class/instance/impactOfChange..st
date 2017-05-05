@@ -11,7 +11,6 @@ impactOfChange: aCIChange
 			self addEntityVisited: change entity.
 			currentResponsibleImpact := impactedEntities detect: [ :impact | impact impactedEntity = change entity ].
 			change
-				impactForStrategy: self
-				"pharoImpactedPutNextChangesIn: nextChangesToProcess andImpactedEntitiesIn: impactedEntities withResponsibleImpact: currentResponsibleImpact" ].
+				impactForStrategy: self ].
 	
 	^ impactedEntities
