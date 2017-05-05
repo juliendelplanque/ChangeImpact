@@ -1,4 +1,17 @@
 impact computation
 impactOfChange: aCIChange
-	"Returns a list of entities that have been indirectly impacted by the CIChange given as parameter."
-	^ self subclassResponsibility
+	nextChangesToProcess := LinkedList new.
+	impactedEntities := Set new.
+	visitedEntities := Set new.
+	self addChangeToProcess: aCIChange.
+	impactedEntities add: (CIDirectImpact impactedEntity: aCIChange entity).
+	[ nextChangesToProcess isEmpty ]
+		whileFalse: [ |change|
+			change := self nextChangeToProcess.
+			self addEntityVisited: change entity.
+			currentResponsibleImpact := impactedEntities detect: [ :impact | impact impactedEntity = change entity ].
+			change
+				impactForStrategy: self
+				"pharoImpactedPutNextChangesIn: nextChangesToProcess andImpactedEntitiesIn: impactedEntities withResponsibleImpact: currentResponsibleImpact" ].
+	
+	^ impactedEntities

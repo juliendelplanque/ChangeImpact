@@ -1,0 +1,3 @@
+accessing
+nextChangesToProcess
+	^ nextChangesToProcess

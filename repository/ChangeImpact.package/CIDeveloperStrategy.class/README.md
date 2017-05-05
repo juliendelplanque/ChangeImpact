@@ -1,0 +1,1 @@
+I am the strategy used to guide the developer in performing their modifications on an system using impact analysis.

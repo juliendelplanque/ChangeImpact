@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"impactedEntity"
+		"impactedEntity",
+		"inducedImpacts"
 	],
 	"name" : "CIImpact",
 	"type" : "normal"

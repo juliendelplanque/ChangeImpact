@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"responsibleImpact"
-	],
+	"instvars" : [ ],
 	"name" : "CIIndirectImpact",
 	"type" : "normal"
 }

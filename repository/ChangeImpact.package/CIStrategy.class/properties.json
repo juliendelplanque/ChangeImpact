@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"impactedEntities",
+		"nextChangesToProcess",
+		"visitedEntities",
+		"currentResponsibleImpact"
+	],
 	"name" : "CIStrategy",
 	"type" : "normal"
 }
