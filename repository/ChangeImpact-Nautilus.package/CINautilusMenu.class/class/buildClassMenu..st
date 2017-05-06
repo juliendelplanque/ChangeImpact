@@ -9,11 +9,11 @@ buildClassMenu: aBuilder
 		with: [ 
 			(aBuilder item: #'Move')
 				label: 'Class selected is moved?';
-				action: [ self openImpactSet: (CIPharoDeveloperStrategy impactOfChange: (CIMoveChange entity: selectedClass)) ].
+				action: [ self openOnChange: (CIMoveChange entity: selectedClass) ].
 			(aBuilder item: #'Remove')
 				label: 'Class selected is removed?';
-				action: [ self openImpactSet: (CIPharoDeveloperStrategy impactOfChange: (CIRemoveChange entity: selectedClass)) ].
+				action: [ self openOnChange: (CIRemoveChange entity: selectedClass) ].
 			(aBuilder item: #'Rename')
 				label: 'Class selected is renamed?';
-				action: [ self openImpactSet: (CIPharoDeveloperStrategy impactOfChange: (CIRenameChange entity: selectedClass)) ] ];
+				action: [ self openOnChange: (CIRenameChange entity: selectedClass) ] ];
 		withSeparatorAfter

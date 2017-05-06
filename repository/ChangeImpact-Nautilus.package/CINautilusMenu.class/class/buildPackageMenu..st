@@ -9,5 +9,5 @@ buildPackageMenu: aBuilder
 		with: [ 
 			(aBuilder item: #'Remove')
 				label: 'Package selected is removed?';
-				action: [ self openImpactSet: (CIPharoDeveloperStrategy impactOfChange: (CIRemoveChange entity: package)) ] ];
+				action: [ self openOnChange: (CIRemoveChange entity: package) ] ];
 		withSeparatorAfter
