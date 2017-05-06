@@ -1,3 +1,3 @@
 *ChangeImpact-Pharo
 ciContainedEntity
-	^ self definedClasses , self extensionMethods
+	^ self definedClasses , (self definedClasses collect: #classSide) , self extensionMethods
