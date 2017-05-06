@@ -13,7 +13,9 @@
 		"whenSelectedItemChanged",
 		"layout",
 		"layoutDropList",
+		"layoutDropListLabel",
 		"circleSizeInput",
+		"circleSizeInputLabel",
 		"circleSize"
 	],
 	"name" : "CIBImpactTreeRoassal",

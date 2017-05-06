@@ -14,6 +14,7 @@ defaultSpec
 							rightColumn
 								newRow: #sourceCodeModelLabel height: self inputTextHeight;
 								add: #sourceCodeModel ] ];
+				addSplitter;
 				newRow: #impactTreeVisualisationLabel height: self inputTextHeight;
 				newRow: [ :row | row add: #impactTreeVisualisation ] ];
 		yourself

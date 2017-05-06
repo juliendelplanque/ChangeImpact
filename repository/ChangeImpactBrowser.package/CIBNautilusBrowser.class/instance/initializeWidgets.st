@@ -5,4 +5,5 @@ initializeWidgets
 	sourceCodeModelLabel := self newLabel.
 	sourceCodeModel := CIBSourceCode new.
 	impactTreeVisualisationLabel := self newLabel.
-	impactTreeVisualisation := CIBImpactTreeRoassal new
+	impactTreeVisualisation := CIBImpactTreeRoassal new.
+	packageRegexTextInput := self newTextInput

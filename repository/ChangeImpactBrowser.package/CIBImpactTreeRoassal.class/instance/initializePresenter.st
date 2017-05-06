@@ -19,4 +19,9 @@ initializePresenter
 					UIManager default inform: 'The circle size must be an integer.' ]
 				ifNotNil: [ 
 					self circleSize: size.
-					self roassal refresh. ] ]
+					self roassal refresh. ] ].
+			
+	self layoutDropListLabel
+		label: 'Layout:'.
+	self circleSizeInputLabel
+		label: 'Circle radius:'

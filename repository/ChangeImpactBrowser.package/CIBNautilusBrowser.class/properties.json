@@ -11,7 +11,8 @@
 		"sourceCodeModelLabel",
 		"sourceCodeModel",
 		"impactTreeVisualisation",
-		"impactTreeVisualisationLabel"
+		"impactTreeVisualisationLabel",
+		"strategy"
 	],
 	"name" : "CIBNautilusBrowser",
 	"type" : "normal"
