@@ -1,1 +1,1 @@
-I am an abstract change made in a software model.
+I am an abstract change made on a software.

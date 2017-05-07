@@ -1,0 +1,1 @@
+I am an abstract change made on a software that concerns a base and target entity.
