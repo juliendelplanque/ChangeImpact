@@ -1,0 +1,1 @@
+A developer strategy specialized for Pharo entities.

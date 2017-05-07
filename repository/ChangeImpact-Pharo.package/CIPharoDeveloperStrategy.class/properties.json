@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "JulienDelplanque 5/7/2017 14:52",
 	"super" : "CIDeveloperStrategy",
 	"category" : "ChangeImpact-Pharo-Strategy",
 	"classinstvars" : [ ],
