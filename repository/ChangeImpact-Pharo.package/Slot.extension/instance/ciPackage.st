@@ -1,3 +1,3 @@
 *ChangeImpact-Pharo
 ciPackage
-	^ self definingClass ciPackage
+	^ self ciContainer ciPackage
