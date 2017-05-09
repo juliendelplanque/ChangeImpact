@@ -1,6 +1,7 @@
 printing
 printOn: aStream
-	super printOn: aStream.
-	aStream << $(.
+	aStream
+		<< self changeName;
+		<< $(.
 	self printContentOn: aStream.
 	aStream << $)
