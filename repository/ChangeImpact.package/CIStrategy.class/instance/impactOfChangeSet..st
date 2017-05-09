@@ -4,7 +4,7 @@ impactOfChangeSet: aListOfChanges
 	impactedEntities := Set new.
 	visitedEntities := Set new.
 	aListOfChanges do: [ :change | self addChangeToProcess: change ].
-	aListOfChanges do: [ :change | impactedEntities add: (CIDirectImpact impactedEntity: change entity) ].
+	aListOfChanges do: [ :change | impactedEntities add: (CIDirectImpact change: change) ].
 	[ nextChangesToProcess isEmpty ]
 		whileFalse: [ |change|
 			change := self nextChangeToProcess.

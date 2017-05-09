@@ -1,3 +1,3 @@
 accessing
 impactedEntity
-	^ impactedEntity
+	^ self change entity

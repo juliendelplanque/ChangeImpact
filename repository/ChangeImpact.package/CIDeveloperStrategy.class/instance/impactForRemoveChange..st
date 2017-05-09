@@ -1,9 +1,15 @@
 impact computation
 impactForRemoveChange: aCIRemoveChange
 	(self referencesToEntity: aCIRemoveChange entity) do: [ :referencingEntity |
-		self addChangeToProcess: (CIBodyChange entity: referencingEntity).
-		self addImpactedEntity: referencingEntity ].
+		|change|
+		change := CIBodyChange entity: referencingEntity.
+		self
+			addChangeToProcess: change;
+			addImpactedEntityFromChange: change ].
 	
 	(self containedEntities: aCIRemoveChange entity) do: [ :containedEntity |
-		self addChangeToProcess: (CIRemoveChange entity: containedEntity).
-		self addImpactedEntity: containedEntity ]
+		|change|
+		change := CIRemoveChange entity: containedEntity.
+		self
+			addChangeToProcess: change;
+			addImpactedEntityFromChange: change ]
