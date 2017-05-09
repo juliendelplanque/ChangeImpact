@@ -1,4 +1,4 @@
 baselines
 defineDependencies: spec
-	spec
+	self
 		roassal: spec
