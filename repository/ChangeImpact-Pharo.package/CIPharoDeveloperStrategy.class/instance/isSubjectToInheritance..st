@@ -1,3 +1,3 @@
 testing
 isSubjectToInheritance: anEntity
-	^ anEntity isMethod
+	^ anEntity isCompiledMethod
