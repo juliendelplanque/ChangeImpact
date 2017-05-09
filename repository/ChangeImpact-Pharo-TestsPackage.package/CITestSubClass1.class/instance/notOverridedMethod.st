@@ -1,0 +1,3 @@
+methods
+notOverridedMethod
+	^ 42

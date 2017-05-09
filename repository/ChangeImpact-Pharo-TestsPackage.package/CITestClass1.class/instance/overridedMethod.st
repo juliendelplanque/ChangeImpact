@@ -1,0 +1,3 @@
+methods
+overridedMethod
+	^ 1

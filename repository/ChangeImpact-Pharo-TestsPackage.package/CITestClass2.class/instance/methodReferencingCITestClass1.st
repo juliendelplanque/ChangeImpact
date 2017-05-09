@@ -1,0 +1,3 @@
+method
+methodReferencingCITestClass1
+	^ CITestClass1

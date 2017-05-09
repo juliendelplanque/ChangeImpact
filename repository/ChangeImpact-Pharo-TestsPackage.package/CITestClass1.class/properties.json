@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulienDelplanque 5/9/2017 09:55",
+	"super" : "Object",
+	"category" : "ChangeImpact-Pharo-TestsPackage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instvar1",
+		"instvar2"
+	],
+	"name" : "CITestClass1",
+	"type" : "normal"
+}
