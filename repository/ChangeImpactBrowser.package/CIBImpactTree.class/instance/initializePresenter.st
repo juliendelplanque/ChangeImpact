@@ -5,7 +5,7 @@ initializePresenter
 		childrenBlock: [ :impact |
 			impact inducedImpacts
 				sorted: [ :a :b | a impactedEntity name < b impactedEntity name ] ];
-		displayBlock: [ :impact | impact impactedEntity name ];
+		displayBlock: [ :impact | impact change asString ];
 		menu: [ :menuBuilder |
 			menuBuilder addGroup: [ :group |
 				group addItem: [ :item |
