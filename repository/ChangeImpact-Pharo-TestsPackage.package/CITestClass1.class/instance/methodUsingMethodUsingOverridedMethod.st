@@ -1,0 +1,3 @@
+methods
+methodUsingMethodUsingOverridedMethod
+	^ self methodUsingOverridedMethod
