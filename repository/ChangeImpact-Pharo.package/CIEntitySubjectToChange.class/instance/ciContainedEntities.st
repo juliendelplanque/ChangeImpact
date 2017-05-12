@@ -1,0 +1,3 @@
+accessing
+ciContainedEntities
+	^ ciContainedEntities
