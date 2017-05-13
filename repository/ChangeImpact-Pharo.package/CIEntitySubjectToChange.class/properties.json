@@ -9,7 +9,8 @@
 		"ciAllReferences",
 		"ciContainedEntities",
 		"ciPackage",
-		"ciContainer"
+		"ciContainer",
+		"selector"
 	],
 	"name" : "CIEntitySubjectToChange",
 	"type" : "normal"
