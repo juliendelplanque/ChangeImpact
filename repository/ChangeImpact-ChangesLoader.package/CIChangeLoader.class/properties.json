@@ -1,0 +1,14 @@
+{
+	"category" : "ChangeImpact-ChangesLoader",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/19/2017 14:48",
+	"instvars" : [
+		"fileReference" ],
+	"name" : "CIChangeLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
