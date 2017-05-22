@@ -3,4 +3,4 @@ SystemOrganization addCategory: 'ChangeImpact-Changes'!
 SystemOrganization addCategory: 'ChangeImpact-Exceptions'!
 SystemOrganization addCategory: 'ChangeImpact-Filters'!
 SystemOrganization addCategory: 'ChangeImpact-Impact'!
-SystemOrganization addCategory: 'ChangeImpact-Strategy'!
+SystemOrganization addCategory: 'ChangeImpact-Strategies'!

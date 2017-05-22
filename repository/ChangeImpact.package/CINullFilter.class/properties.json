@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JulienDelplanque 5/5/2017 14:20",
-	"super" : "CIFilter",
 	"category" : "ChangeImpact-Filters",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/5/2017 14:20",
+	"instvars" : [
+		 ],
 	"name" : "CINullFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CIFilter",
+	"type" : "normal" }

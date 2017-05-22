@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "JulienDelplanque 3/25/2017 14:28",
-	"super" : "CIChange",
 	"category" : "ChangeImpact-Changes",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 3/25/2017 14:28",
+	"instvars" : [
+		 ],
 	"name" : "CIBodyChange",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CIChange",
+	"type" : "normal" }

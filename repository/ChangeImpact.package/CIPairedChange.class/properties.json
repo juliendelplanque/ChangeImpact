@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "JulienDelplanque 5/7/2017 14:27",
-	"super" : "CIChange",
 	"category" : "ChangeImpact-Changes",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/7/2017 14:27",
 	"instvars" : [
-		"targetEntity"
-	],
+		"targetEntity" ],
 	"name" : "CIPairedChange",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CIChange",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-utility
+exploring
 referencesToEntity: anEntity
 	"Returns the entities that reference anEntity."
-	^ self modelStrategy referencesToEntity: anEntity
+	^ self subclassResponsibility

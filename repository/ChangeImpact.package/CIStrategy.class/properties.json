@@ -1,17 +1,19 @@
 {
+	"category" : "ChangeImpact-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
 	"commentStamp" : "JulienDelplanque 5/2/2017 18:16",
-	"super" : "Object",
-	"category" : "ChangeImpact-Strategy",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
 	"instvars" : [
 		"impactedEntities",
 		"nextChangesToProcess",
 		"visitedEntities",
 		"currentResponsibleImpact",
-		"filter"
-	],
+		"modelStrategy",
+		"filter" ],
 	"name" : "CIStrategy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

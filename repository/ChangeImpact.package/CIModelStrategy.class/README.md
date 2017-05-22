@@ -1,0 +1,1 @@
+I am the strategy that defines how to explore a software model.

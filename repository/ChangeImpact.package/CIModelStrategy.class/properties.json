@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JulienDelplanque 5/4/2017 14:51",
+	"commentStamp" : "JulienDelplanque 5/22/2017 11:25",
 	"instvars" : [
 		 ],
-	"name" : "CIDeveloperStrategy",
+	"name" : "CIModelStrategy",
 	"pools" : [
 		 ],
-	"super" : "CIStrategy",
+	"super" : "Object",
 	"type" : "normal" }
