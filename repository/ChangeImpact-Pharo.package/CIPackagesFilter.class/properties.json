@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "JulienDelplanque 5/5/2017 14:42",
-	"super" : "CIFilter",
 	"category" : "ChangeImpact-Pharo-Filters",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 5/5/2017 14:42",
 	"instvars" : [
-		"packages"
-	],
+		"packages" ],
 	"name" : "CIPackagesFilter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CIFilter",
+	"type" : "normal" }

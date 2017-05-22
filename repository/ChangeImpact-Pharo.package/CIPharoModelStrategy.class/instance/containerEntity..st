@@ -1,3 +1,3 @@
-utility
+exploring
 containerEntity: anEntity
 	^ anEntity ciContainer

@@ -1,4 +1,4 @@
-utility
+exploring
 inheritanceSubEntities: aCompiledMethod
 	^ (aCompiledMethod methodClass subclasses)
 			select: [ :subclass | subclass canUnderstand: aCompiledMethod selector ]

@@ -1,3 +1,3 @@
-utility
+exploring
 containedEntities: anEntity
 	^ anEntity ciContainedEntity

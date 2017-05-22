@@ -1,11 +1,14 @@
 {
+	"category" : "ChangeImpact-Pharo-Strategies",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
 	"commentStamp" : "JulienDelplanque 5/7/2017 14:52",
-	"super" : "CIDeveloperStrategy",
-	"category" : "ChangeImpact-Pharo-Strategy",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		 ],
 	"name" : "CIPharoDeveloperStrategy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CIDeveloperStrategy",
+	"type" : "normal" }

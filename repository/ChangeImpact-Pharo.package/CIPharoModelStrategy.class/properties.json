@@ -1,0 +1,14 @@
+{
+	"category" : "ChangeImpact-Pharo-Strategy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CIPharoModelStrategy",
+	"pools" : [
+		 ],
+	"super" : "CIModelStrategy",
+	"type" : "normal" }

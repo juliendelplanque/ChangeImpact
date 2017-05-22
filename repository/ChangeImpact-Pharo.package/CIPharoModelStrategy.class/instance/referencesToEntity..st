@@ -1,3 +1,3 @@
-utility
+exploring
 referencesToEntity: aPharoEntity
 	^ aPharoEntity ciAllReferences
