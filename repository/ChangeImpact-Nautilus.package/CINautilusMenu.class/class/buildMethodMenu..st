@@ -7,9 +7,6 @@ buildMethodMenu: aBuilder
 		label: 'What if...';
 		order: self orderNumber;
 		with: [ 
-			(aBuilder item: #'Add')
-				label: 'A method is added?';
-				action: [ self openOnChange: (CIAddChange entity: selectedMethod) ].
 			(aBuilder item: #'Body')
 				label: 'Method selected body is modified?';
 				action: [ self openOnChange: (CIBodyChange entity: selectedMethod) ].
