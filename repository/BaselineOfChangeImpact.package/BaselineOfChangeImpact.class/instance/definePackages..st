@@ -7,4 +7,5 @@ definePackages: spec
 		package: 'ChangeImpact-Pharo-Tests' with: [ spec requires: #('ChangeImpact-Pharo' 'ChangeImpact-Pharo-TestsPackage') ];
 		package: 'ChangeImpactBrowser' with: [ spec requires: #('ChangeImpact-Pharo' 'Roassal2') ];
 		package: 'ChangeImpact-Nautilus' with: [ spec requires: #('ChangeImpactBrowser') ];
+		package: 'ChangeImpact-FAMIX' with: [ spec requires: #('ChangeImpact') ];
 		yourself
