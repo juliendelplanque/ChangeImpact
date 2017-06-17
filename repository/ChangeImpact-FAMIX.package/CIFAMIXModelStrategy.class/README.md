@@ -1,0 +1,1 @@
+I am an abstract class defining the common behaviour of all FAMIX model strategies. My subclasses should define how to access inheritance entities depending on the type of software modeled.

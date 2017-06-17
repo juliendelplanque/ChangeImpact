@@ -1,0 +1,1 @@
+I am a FAMIX model strategy specialised for model representing Smalltalk software.
