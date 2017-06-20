@@ -1,14 +1,13 @@
 {
-	"category" : "ChangeImpact-FAMIX-Strategies",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JulienDelplanque 6/17/2017 15:43",
-	"instvars" : [
-		"famixModel" ],
-	"name" : "CIFAMIXModelStrategy",
-	"pools" : [
-		 ],
 	"super" : "CIModelStrategy",
-	"type" : "normal" }
+	"category" : "ChangeImpact-FAMIX-Strategies",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"famixModel"
+	],
+	"name" : "CIFAMIXModelStrategy",
+	"type" : "normal"
+}

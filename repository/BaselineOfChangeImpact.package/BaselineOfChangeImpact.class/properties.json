@@ -1,14 +1,11 @@
 {
-	"category" : "BaselineOfChangeImpact",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JulienDelplanque 5/9/2017 09:39",
-	"instvars" : [
-		 ],
-	"name" : "BaselineOfChangeImpact",
-	"pools" : [
-		 ],
 	"super" : "BaselineOf",
-	"type" : "normal" }
+	"category" : "BaselineOfChangeImpact",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfChangeImpact",
+	"type" : "normal"
+}
