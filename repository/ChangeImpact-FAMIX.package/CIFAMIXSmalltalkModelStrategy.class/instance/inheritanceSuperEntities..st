@@ -9,4 +9,4 @@ inheritanceSuperEntities: aFAMIXMethod
 		inh superclass methods
 			detect: [ :m | m signature = aFAMIXMethod signature ]
 			ifFound: [ :found | superEntities add: found ] ].
-	^ container
+	^ superEntities
